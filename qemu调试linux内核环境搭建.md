@@ -175,7 +175,7 @@ console=ttyS0：把QEMU的输入输出定向到当前终端上
 
 启动后如下图：
 
-![img](C:\Users\zhuobx\AppData\Local\Temp\企业微信截图_16564846323823.png)
+![img](https://raw.githubusercontent.com/zhuobixin/linux-kernel-learn/main/images/16564846323823.png)
 
 这时候根文件系统是以只读模式挂载的，可以执行 mount -o remount rw / 重新以读写模式挂载。
 
@@ -213,7 +213,7 @@ xxx$ gdb
 (gdb) c  #让linux内核继续运行
 ```
 
-![img](C:\Users\zhuobx\AppData\Local\Temp\企业微信截图_16564852959734.png)
+![img](https://raw.githubusercontent.com/zhuobixin/linux-kernel-learn/main/images/16564852959734.png)
 
 
 
@@ -230,9 +230,9 @@ Continuing.
 
 然后在qemu虚拟机中输入ls，这时就会断在copy_process函数。
 
-![img](C:\Users\zhuobx\AppData\Local\Temp\企业微信截图_1656485783658.png)
+![img](https://raw.githubusercontent.com/zhuobixin/linux-kernel-learn/main/images/1656485783658.png)
 
-![img](C:\Users\zhuobx\AppData\Local\Temp\企业微信截图_16564854924521.png)
+![img](https://raw.githubusercontent.com/zhuobixin/linux-kernel-learn/main/images/16564854924521.png)
 
 ## 5、添加共享磁盘
 
